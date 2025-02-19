@@ -1,0 +1,1 @@
+This repository demonstrates a common error in recursive functions written in Hack: the lack of a base case for negative inputs. The `foo` function calculates the factorial recursively, but it doesn't handle negative input, resulting in an infinite recursion and stack overflow. The `bugSolution.hack` file provides a corrected version with proper error handling.
